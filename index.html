@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/math-plus.css' rel='stylesheet'>
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/math-minus.css' rel='stylesheet'>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h2 class="web-name"> WeatheR </h2>
+    <input type="search" class="search-input" placeholder="city ...">
+  </header>
+  <main>
+    <section class="container-main">
+      <div class="cont-status">
+        <h1 class="temp">0 <span> C° </span> </h1>
+        <div class="cont-temp">
+          <img src="images/rain.png" alt="rain" class="img icon-weather">
+          <span class="status">rainy
+          </span>
+          <p class="note">do not forget an umbrella</p>
+        </div>
+      </div>
+
+
+      <div class="status-feature">
+        <div class="min-temp cont-details">
+          <span class="min-span">
+            0 C°
+          </span>
+          <i class="gg-math-minus img" ></i>
+        </div>
+        <div class="max-temp cont-details">
+          <span class="max-span">
+            100 C°
+          </span>
+          <i class="gg-math-plus img" ></i>
+        </div>
+        <div class="country cont-details">
+          <span class="country-span">
+            IR
+          </span>
+          <img src="images/country.png" alt="country" class="img country details">
+        </div>
+        <div class="speed-wind cont-details">
+          <span class="wind-span">
+            5 speed Wind
+          </span>
+
+          <img src="images/windy.png" alt="windy" class="img wind details">
+        </div>
+        <div class="desc cont-details">
+          <span class="desc-span">
+            rainy sky
+          </span>
+          <img src="images/desc.png" alt="description" class="img desc details">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span class="border-footer"></span>
+    <div class="cont-time">
+      <span class="hour">12:35</span>
+      <span class="day__span">monday</span>
+    </div>
+    <div class="cont--city">
+      <p class="">New york - american</p>
+    </div>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
