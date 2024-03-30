@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+
+  font-family: "Patrick Hand", cursive;
+
+
+}
+
+header {
+  background-color: rgba(32, 32, 32, 0.675);
+  color: rgb(91, 91, 91);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  box-shadow: rgb(63, 63, 63) 1px 1px 15px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(48, 48, 48);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: rgb(91, 91, 91);
+}
+
+main {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+  /* background-color: aquamarine; */
+}
+
+.container-main {
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 20px;
+  /* filter: blur(5px); */
+}
+
+.cont-status {
+  background-color: rgba(20, 20, 20, 0.863);
+  color: rgb(240, 240, 240);
+  border: 0.5px solid rgb(38, 38, 38);
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  gap: 50px;
+}
+
+.temp {
+  font-size: 62px;
+}
+
+.status {
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.note {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(203, 203, 203, 0.247);
+}
+
+.cont-temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.img {
+  animation: weather 1s 1s infinite linear alternate;
+}
+
+.status-feature {
+  background-color: rgba(20, 20, 20, 0.863);
+  color: rgb(240, 240, 240);
+  border: 0.5px solid rgb(38, 38, 38);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.details{
+  width: 25px;
+  height: 25px;
+}
+
+.cont-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  gap: 15px;
+}
+.cont-details span {
+  margin: 5px;
+}
+
+@keyframes weather {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}
